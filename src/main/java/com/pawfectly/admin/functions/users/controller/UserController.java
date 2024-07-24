@@ -1,6 +1,6 @@
-package com.pawfectly.admin.function.users.controller;
+package com.pawfectly.admin.functions.users.controller;
 
-import com.pawfectly.admin.function.users.service.UserService;
+import com.pawfectly.admin.functions.users.service.UserService;
 import com.pawfectly.common.dto.ApiResultModel;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
@@ -26,7 +26,7 @@ public class UserController {
     public ApiResultModel helloWorld() {
         return ApiResultModel.builder()
                 .isSuccess(true)
-                .message("Test User Master")
+                .message("Test User Controller")
                 .resultData("result data test")
                 .build();
     }
