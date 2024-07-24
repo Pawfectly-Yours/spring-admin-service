@@ -6,10 +6,10 @@ import org.springframework.context.annotation.Configuration;
 import org.springframework.data.jpa.repository.config.EnableJpaAuditing;
 import org.springframework.data.jpa.repository.config.EnableJpaRepositories;
 
+@EntityScan({"com.pawfectly.common", "com.pawfectly.admin"})
 @Configuration
 @ComponentScan({"com.pawfectly.common"})
-@EntityScan({"com.pawfectly.common", "com.pawfectly.admin"})
-@EnableJpaRepositories({"com.pawfectly.admin", "com.pawfectly.admin"})
 @EnableJpaAuditing
+@EnableJpaRepositories({"com.pawfectly.admin", "com.pawfectly.common"})
 public class PawfectlyYoursConfig {
 }

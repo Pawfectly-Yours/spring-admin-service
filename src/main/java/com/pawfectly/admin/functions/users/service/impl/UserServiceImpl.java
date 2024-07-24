@@ -1,7 +1,7 @@
-package com.pawfectly.admin.function.users.service.impl;
+package com.pawfectly.admin.functions.users.service.impl;
 
-import com.pawfectly.admin.function.users.repository.UserRepository;
-import com.pawfectly.admin.function.users.service.UserService;
+import com.pawfectly.admin.functions.users.repository.UserRepository;
+import com.pawfectly.admin.functions.users.service.UserService;
 import com.pawfectly.common.model.UserModel;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;

@@ -1,6 +1,6 @@
-package com.pawfectly.admin.function.users.service;
+package com.pawfectly.admin.functions.users.service;
 
-import com.pawfectly.admin.function.users.repository.UserRepository;
+import com.pawfectly.admin.functions.users.repository.UserRepository;
 import com.pawfectly.common.model.UserModel;
 import org.springframework.stereotype.Service;
 

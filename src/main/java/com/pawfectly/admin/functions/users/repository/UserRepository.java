@@ -1,4 +1,4 @@
-package com.pawfectly.admin.function.users.repository;
+package com.pawfectly.admin.functions.users.repository;
 
 import com.pawfectly.common.model.UserModel;
 import org.springframework.data.jpa.repository.JpaRepository;
